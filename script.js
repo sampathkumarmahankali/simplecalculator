@@ -1,6 +1,5 @@
 let string="";
 let buttons=document.querySelectorAll('.button');
-// console.log(Array.from(buttons));
 Array.from(buttons).forEach((items)=>{
     items.addEventListener('click',(e)=>{
        if(e.target.innerHTML==='C'){
